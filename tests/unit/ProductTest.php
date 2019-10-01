@@ -8,7 +8,7 @@
 
 use App\Product;
 
-class ProductTest extends PHPUnit_Framework_TestCase
+class ProductTest extends PHPUnit\Framework\TestCase
 {
 
     /**

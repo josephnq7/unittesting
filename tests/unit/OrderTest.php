@@ -6,7 +6,7 @@
  * Time: 15:41
  */
 
-class OrderTest extends PHPUnit_Framework_TestCase
+class OrderTest extends PHPUnit\Framework\TestCase
 {
     /** @test */
     function an_order_consists_of_products()
