@@ -12,5 +12,11 @@
 */
 
 Route::get('/', function () {
+//    Mail::raw('Hello World', function ($message) {
+//        $message->to('joseph@bar.com');
+//        $message->from('bar@foo.com');
+//    });
+//
+//    return "Email was sent";
     return view('welcome');
 });
